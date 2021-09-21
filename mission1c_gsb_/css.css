@@ -1,0 +1,53 @@
+* {
+     padding: 0;
+     margin: 0;
+}
+
+h1 {
+     font-size: 1.5em;
+     color: rgb(73, 150, 238);
+     height: 60px;
+}
+
+h2 {
+     font-size: 1.25em;
+     color: white;
+}
+
+p {
+     color: white;
+}
+
+.page {
+     display: flex;
+}
+
+.containerPage {
+     margin-left: 40px;
+}
+
+form {    
+     background-color: rgb(119, 170, 221);
+     height: 145px;
+}
+
+.inputContainer {
+     display: flex;
+     margin-bottom: 20px;
+}
+
+input {
+     margin-left: 40px;
+}
+
+td {
+     border: 1px solid white ;
+     text-align:center;
+     width: 5%;
+ }
+ 
+ thead,
+ tfoot {
+     background-color: #333;
+     color: #fff;
+ }
